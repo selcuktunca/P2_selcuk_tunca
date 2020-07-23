@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.blocGauche{
+    width: 30%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.blocDroit{
+    width: 65%;
+    padding-left: 5%;
+}
+.blocGauche article, .blocGauche figure{
+    width: 100%;
+}
+.blocDroit header{
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.blocGauche figure img{
+    border-radius: 50%;
+}
+.blocGauche h3{
+    text-align: center;
+    color: yellow;
+    background-color:rgb(51, 48, 48);
+}
+.blocDroit header h1 span{
+    color:yellow;
+}
+.blocDroit header h2 span{
+    text-decoration: underline yellow;
+}
