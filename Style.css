@@ -41,3 +41,16 @@ main{
 .blocDroit header h2 span{
     text-decoration: underline yellow;
 }
+#formation {
+    display: flex;
+    justify-content: space-between;
+ }
+ .ecole{
+     padding-left: 100px;
+ }
+.date{
+    padding-right: 50px;
+    flex-wrap: nowrap;
+}
+
+
