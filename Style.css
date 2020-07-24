@@ -41,16 +41,49 @@ main{
 .blocDroit header h2 span{
     text-decoration: underline yellow;
 }
-#formation {
-    display: flex;
-    justify-content: space-between;
- }
- .ecole{
-     padding-left: 100px;
- }
-.date{
-    padding-right: 50px;
-    flex-wrap: nowrap;
+.formation{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dateFR{
+    float: left;
+    width: 30%;
+}
+.ecole{
+    margin-left: 200px;
+    text-align: left; 
+}
+.formation .ecole p{
+    padding-bottom: 5px;
 }
 
-
+.experience{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dateEX{
+    float: left;
+    width: 30%;
+}
+.entreprise{
+    margin-left: 200px;
+    text-align: left;
+}
+.experience .entreprise p{
+    padding-bottom: 5px;
+}
+.recommandation{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.p1{
+    float: left;
+    width: 50%;
+}
+.aPropos{
+    flex-grow: 1;
+    
+}
