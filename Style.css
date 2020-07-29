@@ -16,6 +16,7 @@ main{
     display: flex;
     flex-direction: column;
     
+    
 }
 .blocDroit{
     width: 65%;
@@ -90,6 +91,7 @@ main{
 }
 .contact p{
     padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 10px;    
 }
 .aPropos p{
@@ -119,4 +121,66 @@ main{
 .blocDroit h3{
     padding-top: 40px;
 }
+@media screen and ( max-width: 1100px) {
+    main{
+    width: 100%;
+    }
+    .blocGauche{
+        width: 35%;
+    }
+    .blocDroit{
+        width: 65%;
+    }
+}
+@media screen and ( max-width: 740px) {
+    .blocDroit header{
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+    .formation{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .dateFR{
+        float: none;
+        width: 100%;
+    }
+    .ecole {
+        margin-left: 20px;
+    }
+    .experience{
+        padding-top: 20px;
+        padding-bottom: 20px;    
+    }
+    .dateEX{
+        float: none;
+        width: 100%;
+       
+    } 
+    .entreprise{
+        margin-left: 20px;
+    }
+    .recommandation{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        float: none;
+    }
+    .blocGauche i{
+        padding-left: 10px;
+    }
+}
+@media screen and ( max-width: 610px) {
 
+    .blocGauche{
+        width: 40%;
+    }
+    .blocDroit{
+        width: 60%;
+    }
+    .contact p{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
