@@ -30,7 +30,12 @@ main{
     padding-bottom: 8%;
 }
 .photo {
-    border-radius: 50%;    
+    border-radius: 50%; 
+    margin-top: 20px;   
+}
+figure{
+    display: flex;
+    justify-content: center;
 }
 
 .blocGauche h3{
@@ -102,10 +107,7 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.blocGauche i{
-    padding-left: 50px;
-    padding-bottom: 20px;
-}
+
 .blocDroit h3 i{
     padding-right: 30px;
 }
@@ -121,6 +123,36 @@ main{
 .blocDroit h3{
     padding-top: 40px;
 }
+.i-xs{
+    font-size: 12px;
+}
+.loisir div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.blocGauche i{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocDroit i{
+    color: yellow;
+}
+.formation span{
+    margin-left: 18px;
+}
+.experience span{
+    margin-left: 18px;
+}
+hr{
+    border-bottom: 1px solid yellow;
+}
+
 @media screen and ( max-width: 1100px) {
     main{
     width: 100%;
@@ -165,22 +197,39 @@ main{
         padding-bottom: 20px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+
+     }
+    .p1 {
+        padding-bottom: 10px;
         float: none;
+        width: 100%;
     }
-    .blocGauche i{
-        padding-left: 10px;
-    }
+
 }
 @media screen and ( max-width: 610px) {
 
+    main{
+        display: flex;
+        flex-direction: column;
+    }
     .blocGauche{
-        width: 40%;
+        width: 100%;
+        text-align: center;
     }
     .blocDroit{
-        width: 60%;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
     }
-    .contact p{
+    .blocDroit h3 i{
         padding-right: 5px;
-        padding-left: 5px;
     }
+    .dateFR{
+        padding-bottom: 5px;
+    }
+    .dateEX{
+        padding-bottom: 5px;
+    }
+
 }
