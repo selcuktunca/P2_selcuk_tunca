@@ -1,3 +1,7 @@
+:root{
+    --main-bg-color: yellow
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ main{
 }
 .blocGauche{
     width: 30%;
-    background-color: yellow;
+    background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
     
@@ -40,27 +44,27 @@ figure{
 
 .blocGauche h3{
     text-align: center;
-    color: yellow;
+    color: var(--main-bg-color);
     background-color:rgb(51, 48, 48);
 }
 .blocDroit header h1 span{
     color:yellow;
 }
 .blocDroit header h2 span{
-    text-decoration: underline yellow;
+    text-decoration: underline var(--main-bg-color);
 }
 .formation{
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 .dateFR{
-    float: left;
-    width: 30%;
+    min-width: 200px;
 }
 .ecole{
-    margin-left: 200px;
-    text-align: left; 
+    max-width: 60%;
 }
 .formation .ecole p{
     padding-bottom: 5px;
@@ -70,26 +74,24 @@ figure{
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 .dateEX{
-    float: left;
-    width: 30%;
+    min-width: 200px;
 }
 .entreprise{
-    margin-left: 200px;
-    text-align: left;
+    max-width: 60%;
 }
 .experience .entreprise p{
     padding-bottom: 5px; 
 }
 .recommandation{
-    width: 100%;
+    width: 90%;
     padding-top: 40px;
     padding-bottom: 10px;
-}
-.p1{
-    float: left;
-    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 .aPropos{
     flex-grow: 1;
@@ -111,10 +113,7 @@ figure{
 .blocDroit h3 i{
     padding-right: 30px;
 }
-.dateFR i{
-    padding-right: 5px;
-}
-.dateEX i{
+.dateFR i, .dateEX i{
     padding-right: 5px;
 }
 .blocDroit h3 {
@@ -141,7 +140,7 @@ figure{
     align-items: center;
 }
 .blocDroit i{
-    color: yellow;
+    color: var(--main-bg-color);
 }
 .formation span{
     margin-left: 18px;
@@ -150,7 +149,7 @@ figure{
     margin-left: 18px;
 }
 hr{
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid var(--main-bg-color);
 }
 
 @media screen and ( max-width: 1100px) {
@@ -173,24 +172,10 @@ hr{
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .dateFR{
-        float: none;
-        width: 100%;
-    }
-    .ecole {
-        margin-left: 20px;
-    }
+    
     .experience{
         padding-top: 20px;
         padding-bottom: 20px;    
-    }
-    .dateEX{
-        float: none;
-        width: 100%;
-       
-    } 
-    .entreprise{
-        margin-left: 20px;
     }
     .recommandation{
         padding-top: 20px;
@@ -200,18 +185,16 @@ hr{
         justify-content: center;
 
      }
-    .p1 {
-        padding-bottom: 10px;
-        float: none;
-        width: 100%;
-    }
-
+     .p1{
+         padding-bottom: 10px;
+     }
 }
 @media screen and ( max-width: 610px) {
 
     main{
         display: flex;
         flex-direction: column;
+    
     }
     .blocGauche{
         width: 100%;
@@ -221,6 +204,8 @@ hr{
         width: 100%;
         text-align: center;
         padding-left: 0;
+        
+        
     }
     .blocDroit h3 i{
         padding-right: 5px;
@@ -230,6 +215,23 @@ hr{
     }
     .dateEX{
         padding-bottom: 5px;
+    }
+    .formation{
+        display: flex;
+        flex-direction: column;
+    }
+    .ecole{
+        min-width: 100%;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+    }
+    .entreprise{
+        min-width: 100%;
+    }
+    .recommandation{
+        width: 100%;
     }
 
 }
