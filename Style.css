@@ -193,8 +193,7 @@ hr{
 
     main{
         display: flex;
-        flex-direction: column;
-    
+        flex-direction: column ;
     }
     .blocGauche{
         width: 100%;
@@ -203,9 +202,7 @@ hr{
     .blocDroit{
         width: 100%;
         text-align: center;
-        padding-left: 0;
-        
-        
+        padding-left: 0;     
     }
     .blocDroit h3 i{
         padding-right: 5px;
