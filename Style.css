@@ -151,7 +151,9 @@ figure{
 hr{
     border-bottom: 1px solid var(--main-bg-color);
 }
-
+.blocGauche + h2{
+    display: none;
+}
 @media screen and ( max-width: 1100px) {
     main{
     width: 100%;
