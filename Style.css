@@ -1,5 +1,5 @@
 :root{
-    --main-bg-color: yellow;
+    --main-bg-color: rgb(232, 121, 29);
 }
 
 *{
@@ -48,7 +48,7 @@ figure{
     background-color:rgb(51, 48, 48);
 }
 .blocDroit header h1 span{
-    color:yellow;
+    color: var(--main-bg-color);
 }
 .blocDroit header h2 span{
     text-decoration: underline var(--main-bg-color);
@@ -171,8 +171,8 @@ article header{
         width: 65%;
     }
 }
-@media screen and ( max-width: 740px) {
-    .blocDroit header{
+@media screen and ( max-width: 768px) {
+    .titrePrincipal{
         padding-top: 5%;
         padding-bottom: 4%;
     }
