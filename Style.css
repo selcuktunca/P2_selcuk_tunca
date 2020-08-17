@@ -1,5 +1,5 @@
 :root{
-    --main-bg-color: yellow
+    --main-bg-color: yellow;
 }
 
 *{
@@ -151,8 +151,14 @@ figure{
 hr{
     border-bottom: 1px solid var(--main-bg-color);
 }
-.blocGauche + h2{
+#invisibleTitle{
     display: none;
+}
+article header{
+    width: 100%;
+}
+.blocDroit article{
+    flex-wrap: wrap;
 }
 @media screen and ( max-width: 1100px) {
     main{
