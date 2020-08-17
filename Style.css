@@ -172,7 +172,8 @@ article header{
     }
 }
 @media screen and ( max-width: 768px) {
-    .titrePrincipal{
+   
+    .blocDroit header{
         padding-top: 5%;
         padding-bottom: 4%;
     }
