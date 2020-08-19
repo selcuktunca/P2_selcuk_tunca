@@ -1,6 +1,3 @@
-:root{
-    --main-bg-color: rgb(232, 121, 29);
-}
 
 *{
     margin: 0;
@@ -16,7 +13,7 @@ main{
 }
 .blocGauche{
     width: 30%;
-    background-color: var(--main-bg-color);
+    background-color:  rgb(232, 121, 29);
     display: flex;
     flex-direction: column;
     
@@ -44,14 +41,14 @@ figure{
 
 .blocGauche h3{
     text-align: center;
-    color: var(--main-bg-color);
+    color: rgb(232, 121, 29);
     background-color:rgb(51, 48, 48);
 }
 .blocDroit header h1 span{
-    color: var(--main-bg-color);
+    color:  rgb(232, 121, 29);
 }
 .blocDroit header h2 span{
-    text-decoration: underline var(--main-bg-color);
+    text-decoration: underline  rgb(232, 121, 29);
 }
 .formation{
     width: 100%;
@@ -140,7 +137,7 @@ figure{
     align-items: center;
 }
 .blocDroit i{
-    color: var(--main-bg-color);
+    color:  rgb(232, 121, 29);
 }
 .formation span{
     margin-left: 18px;
@@ -149,7 +146,7 @@ figure{
     margin-left: 18px;
 }
 hr{
-    border-bottom: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid  rgb(232, 121, 29);
 }
 .invisibleTitle{
     display: none;
