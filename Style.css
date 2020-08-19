@@ -151,7 +151,7 @@ figure{
 hr{
     border-bottom: 1px solid var(--main-bg-color);
 }
-#invisibleTitle{
+.invisibleTitle{
     display: none;
 }
 article header{
