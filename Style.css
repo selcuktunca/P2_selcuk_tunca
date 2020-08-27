@@ -32,7 +32,9 @@ main{
 }
 .photo {
     border-radius: 50%; 
-    margin-top: 20px;   
+    margin-top: 20px;
+    width: 150px;   
+    height: 150px;
 }
 figure{
     display: flex;
