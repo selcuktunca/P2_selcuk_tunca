@@ -145,8 +145,8 @@ figure{
 .experience span{
     margin-left: 18px;
 }
-hr{
-    border-bottom: 1px solid  rgb(232, 121, 29);
+.blocDroit h3{
+    border-bottom: 2px solid rgb(232, 121, 29);
 }
 .invisibleTitle{
     display: none;
