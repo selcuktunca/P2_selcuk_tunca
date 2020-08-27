@@ -35,7 +35,9 @@ main{
 }
 .photo {
     border-radius: 50%; 
-    margin-top: 20px;   
+    margin-top: 20px;
+    width: 150px;   
+    height: 150px;
 }
 figure{
     display: flex;
@@ -148,9 +150,10 @@ figure{
 .experience span{
     margin-left: 18px;
 }
-hr{
-    border-bottom: 1px solid var(--main-bg-color);
+.blocDroit h3{
+    border-bottom: 2px solid var(--main-bg-color) ;
 }
+
 .invisibleTitle{
     display: none;
 }
